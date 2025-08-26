@@ -1,8 +1,12 @@
-class UserDatabase {
+import java.util.List;
+import java.util.ArrayList;
+
+
+public class UserDatabase {
     private List<User> users;
 
     public UserDatabase() {
-        users = new ArrayList();
+        users = new ArrayList<>();
         //Add initial users
         users.add(new User("admin", "password"));
         users.add(new User("kyle", "password"));
